@@ -16,4 +16,4 @@ umemcache==1.6.3
 google-cloud-spanner==1.18.0
 https://github.com/mozilla-services/tokenserver/archive/bf5f232ed78fb4eb89909ec5be40f135945aa514.zip
 https://github.com/mozilla-services/server-syncstorage/archive/d370a488155adeb80ee6f1bc016a4aa9d009f181.zip
-psycopg2==2.8.6
+psycopg2-binary==2.8.6

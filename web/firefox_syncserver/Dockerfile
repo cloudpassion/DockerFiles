@@ -14,7 +14,7 @@ COPY ./dev-requirements.txt /app/dev-requirements.txt
 # NOTE: please update the README to include any changes.
 RUN apk --no-cache update \
     && apk add --no-cache --virtual .build-deps bash dumb-init gcc libstdc++ libffi-dev make musl-dev ncurses-dev \
-    && apk add --no-cache --virtual .build-deps postgresql-libs postgresql-dev mysql-dev openssl-dev g++ \
+    postgresql-libs postgresql-dev mysql-dev openssl-dev g++ \
     && pip install --upgrade pip \
     && pip install --upgrade --no-cache-dir -r requirements.txt \
     && pip install --upgrade --no-cache-dir -r dev-requirements.txt \
